@@ -1,19 +1,25 @@
-import Camp from "@/components/Camp";
-import Developer from "@/components/Developer";
-import Features from "@/components/Features";
-import GetApp from "@/components/GetApp";
-import Guide from "@/components/Guide";
+import AboutUs from "@/components/AboutUs";
+import Approach from "@/components/Approach";
+import ContactUs from "@/components/ContactUs";
+import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
+import Industries from "@/components/Industries";
+import Services from "@/components/Services";
+import SocialMedia from "@/components/SocialMedia";
+import Team from "@/components/Team";
 
 export default function Home() {
   return (
     <>
-      <Developer />
       <Hero />
-      <Camp />
-      <Guide />
-      <Features />
-      <GetApp />
+      <AboutUs />
+      <Services />
+      <Industries />
+      <Approach />
+      <Team />
+      <ContactUs />
+      <SocialMedia />
+      <Faq />
     </>
   );
 }
