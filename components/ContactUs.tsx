@@ -10,7 +10,7 @@ const ContactUs = () => {
     >
       <div className="relative z-20 flex flex-1 flex-col ">
         <h2 className="bold-40 lg:bold-52 text-indigo-900">Contact Us</h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           Connect with us at{" "}
           <span className="font-extrabold">HR Expand Plus Consulting </span> to
           embark on a collaborative journey towards transformative solutions. We
@@ -26,10 +26,10 @@ const ContactUs = () => {
         </p>
       </div>
       <div className="relative flex flex-col gap-6 flex-1 items-start">
-        <p className="bold-20 font-extrabold mt-6 text-gray-50 ">
+        <p className="bold-16 lg:bold-20 font-extrabold mt-6 text-gray-50 ">
           <span className="font-extrabold">Contact Form:</span>
         </p>
-        <p className="regular-20 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 text-gray-50 ">
           Fill out the form below, and we'll get back to you promptly.
         </p>
         <form className="flex flex-col gap-6 w-full mx-auto">
