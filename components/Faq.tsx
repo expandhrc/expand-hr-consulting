@@ -9,7 +9,7 @@ const Faq = () => {
     >
       <div className="relative z-20 flex flex-1 flex-col ">
         <h2 className="bold-40 lg:bold-52 text-indigo-900">FAQs</h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           Explore answers to common queries about our consultancy services in
           our FAQs. From service details to engagement processes, we've compiled
           essential information to streamline your experience. Navigate
