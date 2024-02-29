@@ -43,11 +43,7 @@ body {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
   p {
-    @apply text-justify;
-  }
-
-  :global(h2 p), :global(h3 p) {
-  @apply regular-16 lg:regular-20 !important;
+    @apply text-justify regular-16 lg:regular-20 !important;
   }
 
   .max-container {
