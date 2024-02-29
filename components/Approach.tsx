@@ -10,7 +10,7 @@ const Approach = () => {
     >
       <div className="relative z-20 flex flex-1 flex-col ">
         <h2 className="bold-40 lg:bold-52 text-indigo-900">Our Approach</h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           At <span className="font-extrabold">HR Expand Plus Consulting </span>,
           our consultancy approach is a finely tuned blend of insight,
           collaboration, and innovation. We believe in forging a deep
