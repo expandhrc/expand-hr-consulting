@@ -12,7 +12,7 @@ const Industries = () => {
         <h2 className="bold-40 lg:bold-52 text-indigo-900">
           Industries We Serve
         </h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           At <span className="font-extrabold">HR Expand Plus Consulting </span>,
           our consultancy expertise extends across a diverse spectrum of
           industries, where we thrive on the dynamic challenges that each sector
