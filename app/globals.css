@@ -46,6 +46,10 @@ body {
     @apply text-justify;
   }
 
+  :global(h2 p), :global(h3 p) {
+  @apply regular-16 lg:regular-20 !important;
+  }
+
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
