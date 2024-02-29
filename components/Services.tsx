@@ -5,11 +5,11 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="max-container bg-[#f0f8ff] rounded-xl padding-container flex flex-col gap-6 xl:gap-12 py-10 mb-4"
+      className="max-container bg-white rounded-xl padding-container flex flex-col gap-6 xl:gap-12 py-10 mb-4"
     >
       <div className="relative z-20 flex flex-1 flex-col ">
         <h2 className="bold-40 lg:bold-52 text-indigo-900">Services</h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           At <span className="font-extrabold">HR Expand Plus Consulting </span>,
           our suite of consultancy services is meticulously designed to propel
           businesses toward success in the modern landscape. With a
@@ -28,7 +28,7 @@ const Services = () => {
       </div>
 
       <div className="relative flex flex-col gap-8 flex-1 items-start">
-        <p className="bold-20 font-extrabold mt-6 text-gray-50 ">
+        <p className="bold:16 lgbold-20 font-extrabold mt-6 text-gray-50 ">
           <span className="font-extrabold">
             Strategic HR Solutions Tailored for Your Success
           </span>

@@ -5,11 +5,11 @@ const Faq = () => {
   return (
     <section
       id="faq"
-      className="max-container bg-[#f0f8ff] rounded-xl padding-container flex flex-col gap-6 xl:gap-12 py-10"
+      className="max-container bg-white rounded-xl padding-container flex flex-col gap-6 xl:gap-12 py-10"
     >
       <div className="relative z-20 flex flex-1 flex-col ">
         <h2 className="bold-40 lg:bold-52 text-indigo-900">FAQs</h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           Explore answers to common queries about our consultancy services in
           our FAQs. From service details to engagement processes, we've compiled
           essential information to streamline your experience. Navigate
