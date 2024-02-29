@@ -9,9 +9,11 @@ const Navbar = () => {
   return (
     <nav className="flexBetween bg-white max-container padding-container z-30 relative py-5 gap-6">
       <Link href="/">
+
         
         <div className="w-[180px] h-[70px] bg-cover" style={{
     backgroundImage: "url('/logo-for-webcropped.jpg')",
+
 }}>
 </div>
       </Link>
