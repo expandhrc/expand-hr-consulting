@@ -4,7 +4,7 @@ import Button from "./Button";
 const AboutUs = () => {
   return (
     <section
-      className="max-container rounded-xl padding-container 
+      className="max-container bg-white rounded-xl padding-container 
     flex flex-col gap-6 xl:gap-20 py-10 mb-4"
     >
       <div className="relative z-20 flex flex-1 flex-col ">
