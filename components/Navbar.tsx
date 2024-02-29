@@ -7,10 +7,10 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5 gap-6">
+    <nav className="flexBetween bg-white max-container padding-container relative z-30 py-5 gap-6">
       <Link href="/">
         
-        <div className="w-[130px] h-[60px] mix-blend-color-dodge" style={{
+        <div className="w-full h-full mix-blend-color-dodge" style={{
     backgroundImage: "url('/logo-for-webcropped.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
