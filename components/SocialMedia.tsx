@@ -12,13 +12,13 @@ const SocialMedia = () => {
         <h2 className="bold-40 lg:bold-52 text-indigo-900">
           Social Media Integration
         </h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           Stay connected with HR Expand Plus Consulting on social media for
           real-time updates, industry insights, and engaging content. Follow us
           on all Social Media Platforms to join the conversation and be part of
           our dynamic community.
         </p>
-        <p className="regular-18 mt-6 text-gray-50">
+        <p className="regular-14 lgregular-18 mt-6 text-gray-50">
           E-mail: info@hrexpandplus.com
         </p>
         <p className="regular-18 mt-2 text-gray-50">Instagram: HRexpandplus</p>
