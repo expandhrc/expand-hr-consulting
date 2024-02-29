@@ -22,7 +22,9 @@ export default function RootLayout({
     <>
       <body>
         <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
+        <main className="relative overflow-hidden text-justify">
+          {children}
+        </main>
         <Footer />
       </body>
     </>
