@@ -20,11 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <>
+      <head>
+        <Navbar />
+      </head>
       <body>
-        <head>
-         <Navbar />
-        </head>
-        
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
       </body>
