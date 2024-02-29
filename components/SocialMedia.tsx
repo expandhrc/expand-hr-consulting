@@ -18,14 +18,14 @@ const SocialMedia = () => {
           on all Social Media Platforms to join the conversation and be part of
           our dynamic community.
         </p>
-        <p className="regular-14 lgregular-18 mt-6 text-gray-50">
+        <p className="regular-14 lg:regular-18 mt-6 text-gray-50">
           E-mail: info@hrexpandplus.com
         </p>
-        <p className="regular-18 mt-2 text-gray-50">Instagram: HRexpandplus</p>
-        <p className="regular-18 mt-2 text-gray-50">Facebook: HRexpandplus</p>
-        <p className="regular-18 mt-2 text-gray-50">Snapchat: HRexpandplus</p>
-        <p className="regular-18 mt-2 text-gray-50">X: HRexpandplus</p>
-        <p className="regular-18 mt-2 text-gray-50">Linkedin: HRexpandplus</p>
+        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">Instagram: HRexpandplus</p>
+        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">Facebook: HRexpandplus</p>
+        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">Snapchat: HRexpandplus</p>
+        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">X: HRexpandplus</p>
+        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">Linkedin: HRexpandplus</p>
       </div>
     </section>
   );
