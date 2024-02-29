@@ -19,14 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
-      <head>
+    <html>
+      <head className='bg-white'>
         <Navbar />
       </head>
       <body>
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
       </body>
-    </>
+    </html>
   );
 }
