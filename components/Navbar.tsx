@@ -14,6 +14,7 @@ const Navbar = () => {
           alt="logo"
           width={130}
           height={80}
+          className="mix-blend-color-dodge"
         />
       </Link>
 
