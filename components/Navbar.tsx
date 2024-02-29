@@ -7,7 +7,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative py-5 gap-6">
+    <nav className="flexBetween bg-white max-container padding-container z-30 relative py-5 gap-6">
       <Link href="/">
         
         <div className="w-[180px] h-[70px] bg-cover" style={{
