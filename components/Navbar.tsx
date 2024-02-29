@@ -9,12 +9,13 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5 gap-6">
       <Link href="/">
-        <Image
-          src="/logo-for-webcropped.jpg"
-          alt="logo"
-          width={130}
-          height={80}
-        />
+        <div className="w-[200px] h-[80px] mix-blend-color-dodge" style={{
+    backgroundImage: "url('/logo-for-webcropped.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundBlendMode: "color-dodge"
+}}>
+</div>
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
