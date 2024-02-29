@@ -10,7 +10,7 @@ const Team = () => {
     >
       <div className="relative z-20 flex flex-1 flex-col ">
         <h2 className="bold-40 lg:bold-52 text-indigo-900">Team</h2>
-        <p className="regular-20 mt-6 text-gray-50 ">
+        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
           Meet the driving force behind{" "}
           <span className="font-extrabold">HR Expand Plus Consulting -</span>a
           team of seasoned professionals committed to propelling your business
