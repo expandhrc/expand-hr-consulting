@@ -5,7 +5,7 @@ const Industries = () => {
   return (
     <section
       id="industries"
-      className="max-container bg-indigo-100/80 rounded-xl padding-container 
+      className="max-container bg-[#f0f8ff] rounded-xl padding-container 
     flex flex-col gap-6 xl:gap-20 py-10 pb-32 mb-4"
     >
       <div className="relative z-20 flex flex-1 flex-col ">
