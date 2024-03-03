@@ -45,7 +45,7 @@ body {
   }
 
   .p-regular {
-    @apply text-justify regular-16 max-w-[85%] lg:max-w-[85%];
+    @apply text-justify regular-16 max-w-[95%] lg:max-w-[85%];
   }
 
   .p-start {
