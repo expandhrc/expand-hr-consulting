@@ -13,7 +13,7 @@ const AboutUs = () => {
       from-lightBlue via-paleBlue to-lightBlue rounded-xl padding-container 
     flexCenter flex-col gap-6 xl:gap-20 py-10"
     >
-      <div className="relative z-20 flex  flex-col items-center max-w-[90%] rounded-xl bg-slate-50 py-6">
+      <div className="relative z-20 flex  flex-col items-center rounded-xl bg-slate-50 py-6">
         <h2 className="h2 text-heading">About Us</h2>
         <p className="p-regular mt-6 text-gray-90">
           In establishing our consultancy firm, we envisioned a dynamic space
