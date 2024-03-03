@@ -18,14 +18,14 @@ const AccordionItem = ({ open, toggle, title, answer }: AccordionItemProps) => {
     >
       <div className="flex items-center justify-between mb-4">
         <p className="p-regular text-paleBlue text-start">{title}</p>
-        <div className="text-xl text-cyan-400 font-bold">
+        <div className="text-xl text-cyan-400 font-bold ml-4">
           {open ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </div>
       </div>
       <Collapse isOpened={open}>
         <div className="flex items-start text-xl gap-1">
           <FaDiamond
-            className="text-4xl"
+            className="text-6xl  sm:text-4xl"
             style={{ fill: "url(#blue-gradient-fill)" }}
           />
           <p className="regular-14 p-start text-paleBlue/90 py-1 text-center ml-4">
