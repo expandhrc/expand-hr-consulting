@@ -16,7 +16,14 @@ const Hero = () => {
      flex flex-col items-center gap-6 xl:gap-20 py-10 md:flex-row"
     >
       <div className="relative z-20 flex flex-1 flex-col items-center gap-6 xl:w-1/2">
-        <h1 className="h1 text-primary">HR Expand Plus</h1>
+        <h1 className="h1 text-primary">
+          <span
+            className="font-extrabold text-transparent bg-gradient-to-br
+        from-primary via-skyBlue to-primary bg-clip-text"
+          >
+            HR Expand Plus
+          </span>
+        </h1>
         <p className="p-regular text-primary text-md">
           Welcome to{" "}
           <span className="font-extrabold">HR Expand Plus Consulting —</span>{" "}
