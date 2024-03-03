@@ -5,6 +5,7 @@ import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
 import Industries from "@/components/Industries";
 import Services from "@/components/Services";
+import ServicesDesc from "@/components/ServicesDesc";
 import SocialMedia from "@/components/SocialMedia";
 import Team from "@/components/Team";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <Services />
+      <ServicesDesc />
       <Industries />
       <Approach />
       <Team />

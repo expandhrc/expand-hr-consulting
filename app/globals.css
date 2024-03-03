@@ -13,7 +13,8 @@
 
 body {
   font-family: Inter;
-  background-color: #f0f8ff;
+  /* background-color: #f0f8ff; */
+  @apply bg-slate-50;
 }
 
 @layer utilities {
@@ -33,17 +34,38 @@ body {
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
   }
   .input {
-    @apply outline-none w-full h-[52px] rounded-lg pl-6 capitalize focus:ring-1 focus:ring-indigo-800 border border-indigo-300
+    @apply outline-none w-full h-[52px] rounded-lg pl-6 capitalize focus:ring-1 focus:ring-lightBlue border border-primary bg-slate-50
     placeholder:text-gray-30;
   }
   .textarea {
-    @apply outline-none focus:ring-1 focus:ring-indigo-800 border border-indigo-300 placeholder:text-gray-30;
+    @apply outline-none focus:ring-2 focus:ring-lightBlue border border-indigo-300 placeholder:text-gray-30 bg-slate-50;
   }
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
-  p {
-    @apply text-justify regular-16 lg:regular-20 !important;
+
+  .p-regular {
+    @apply text-justify regular-16 max-w-[90%] lg:max-w-[85%];
+  }
+
+  .p-start {
+    @apply regular-16 text-start;
+  }
+
+  .h1 {
+    @apply bold-40 lg:bold-52;
+  }
+
+  .h2 {
+    @apply bold-32 lg:bold-40;
+  }
+
+  .h2-large {
+    @apply bold-52;
+  }
+
+  .h3 {
+    @apply bold-18;
   }
 
   .max-container {
@@ -169,4 +191,8 @@ body {
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
 }
