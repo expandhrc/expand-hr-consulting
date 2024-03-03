@@ -29,7 +29,6 @@ const Faq = () => {
             toggle={() => toggle(index)}
           />
         ))}
-        ;
       </div>
     );
   };
