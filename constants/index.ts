@@ -1,6 +1,16 @@
+export interface Service {
+  heading: string;
+  paragraphs: string[];
+}
+
+export interface FAQs {
+  question: string;
+  answer: string;
+}
+
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
+  { href: '#home', key: 'home', label: 'Home' },
   { href: '#services', key: 'services', label: 'Services' },
   { href: '#approach', key: 'approach', label: 'Our Approach' },
   { href: '#team', key: 'team', label: 'Team' },
@@ -8,12 +18,170 @@ export const NAV_LINKS = [
   { href: '#faq', key: 'faq', label: 'FAQs' },
 ];
 
-// CAMP SECTION
-export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+//  SERVICES
+export const servicesData = [
+  {
+    heading: "Talent Acquisition and Recruitment:",
+    paragraphs: [
+      "Attract top talent with our comprehensive recruitment services.",
+      "Services include job posting, candidate sourcing, and recruitment process outsourcing."
+    ]
+  },
+  {
+    heading: "Workforce Planning:",
+    paragraphs: [
+      "Classify and each unit's activities and evaluate gaps and excess in terms of FTEs.",
+      "Provide a detailed scientific model showing excess and gaps of employees in different business units of the organization."
+    ]
+  },
+  {
+    heading: "Organizational Development:",
+    paragraphs: [
+      "Enhance organizational efficiency through strategic initiatives.",
+      "Services cover employee training, change management, and leadership development.",
+    ],
+  },
+  {
+    heading: "Competency Framework:",
+    paragraphs: [
+      "Study the core business of the organization and propose suitable competencies.",
+      "Services cover Competencies dictionary and competencies matrix with allocation to positions.",
+    ],
+  },
+  {
+    heading: "Business Model Re-engineering:",
+    paragraphs: [
+      "Assess currently operative business model and propose enhancements and upgrades.",
+      "Services cover policies, procedures and processes rewriting and knowledge transfer to HR team.",
+    ],
+  },
+  {
+    heading: "HR Consulting:",
+    paragraphs: [
+      "Get expert guidance on HR strategy, compliance, and performance management.",
+      "Tailored services include HR strategy development and policy consulting, and complete performance evaluation methodology.",
+    ],
+  },
+  {
+    heading: "Employee Engagement:",
+    paragraphs: [
+      "Foster a positive work environment with our employee engagement programs.",
+      "Offerings include surveys, recognition programs, and team-building initiatives.",
+    ],
+  },
+  {
+    heading: "Succession Planning:",
+    paragraphs: [
+      "Develop and implement effective succession plans for key roles.",
+      "Ensure a smooth transition of leadership within your organization.",
+    ],
+  },
+  {
+    heading: "Talent Management:",
+    paragraphs: [
+      "Optimize your workforce through comprehensive talent management solutions.",
+      "Services cover performance appraisal, career development, and talent retention strategies.",
+    ],
+  },
+  {
+    heading: "HR Technology Solutions:",
+    paragraphs: [
+      "Streamline HR processes with cutting-edge technology solutions.",
+      "Implement applicant tracking systems, HRIS, and automation of workflows.",
+    ],
+  },
+  {
+    heading: "HR Compliance and Regulations:",
+    paragraphs: [
+      "Stay compliant with ever-changing HR laws and regulations.",
+      "Services cover compliance audits, policy reviews, and training on legal requirements.",
+    ],
+  },
+  {
+    heading: "Customized Workshops and Training:",
+    paragraphs: [
+      "Enhance skills and knowledge within your workforce with our customized workshops.",
+      "Offerings range from leadership workshops to diversity and inclusion training.",
+    ],
+  },
+  {
+    heading: "Startup HR Solutions:",
+    paragraphs: [
+      "Specialized support for startups navigating HR challenges during growth phases.",
+      "Services include scalable HR solutions, recruitment for startups, and HR strategy.",
+    ],
+  },
+]
+
+// FAQs
+export const faqData = [
+  {
+    question: "What services does HR Expand Plus Consulting offer?",
+    answer:
+      "HR Expand Plus Consulting offers a range of HR consulting services, including talent acquisition, organizational development, strategic HR planning, and customized solutions tailored to your business needs.",
+  },
+  {
+    question: "How can HR Expand Plus Consulting help with recruitment?",
+    answer:
+      "HR Expand Plus Consulting specializes in designing and implementing effective recruitment strategies, leveraging innovative approaches, technology, and industry expertise to attract and secure top-tier talent for your organization.",
+  },
+  {
+    question: "What industries does HR Expand Plus Consulting serve?",
+    answer:
+      `HR Expand Plus Consulting has experience serving a diverse range of industries, including but
+      not limited to technology, manufacturing, healthcare, finance, and
+      professional services.`,
+  },
+  {
+    question: "How does your HR consulting process work?",
+    answer:
+      `Our HR Expand Plus Consulting begins with a thorough assessment of your needs. We then develop
+      tailored solutions, implement strategic initiatives, and provide
+      ongoing support to ensure the success of your HR goals.`,
+  },
+  {
+    question: "Can HR Expand Plus Consulting assist with employee training and development?",
+    answer:
+      `Absolutely. We offer customized training and development
+      programs to enhance the skills of your workforce, fostering
+      professional growth and contributing to overall organizational
+      success.`,
+  },
+  {
+    question: "What sets HR Expand Plus Consulting apart from other HR consulting firms?",
+    answer:
+      `HR Expand Plus Consulting stands out for its personalized approach, industry-specific
+      expertise, and a commitment to delivering measurable results. We
+      prioritize building long-term partnerships and understanding the
+      unique needs of each client.`,
+  },
+  {
+    question: "How can I contact HR Expand Plus Consulting for services?",
+    answer:
+      `You can reach out to HR Expand Plus Consulting through our Contact Page, where you'll find our contact details, a
+      contact form, and information on scheduling a consultation.`,
+  },
+  {
+    question: "Is HR Expand Plus Consulting experienced in handling HR challenges for startups?",
+    answer:
+      `Yes, we have a proven track record of assisting startups with
+      their HR challenges. Our flexible and scalable solutions are
+      designed to support organizations at every stage of growth.`,
+  },
+  {
+    question: "Can HR Expand Plus Consulting help with HR compliance and regulations?",
+    answer:
+      `Absolutely. We stay updated on HR regulations and compliance
+      requirements to ensure your organization is well-informed and in
+      adherence to all relevant laws and standards.`,
+  },
+  {
+    question: "What types of assessments does HR Expand Plus Consulting offer for recruitment or career management purposes?",
+    answer:
+      `HR Expand Plus Consulting provides a range of assessments, including skills assessments,
+      behavioral assessments, and cultural fit assessments, tailored to
+      your specific hiring or career management needs.`,
+  }
 ];
 
 // FEATURES SECTION

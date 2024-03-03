@@ -5,12 +5,11 @@ const Team = () => {
   return (
     <section
       id="team"
-      className="max-container bg-white rounded-xl padding-container 
-    flex flex-col gap-6 xl:gap-20 py-10 mb-4"
+      className="max-container rounded-xl padding-container flexCenter flex-col gap-6 xl:gap-12 py-10 mb-4"
     >
-      <div className="relative z-20 flex flex-1 flex-col ">
-        <h2 className="bold-40 lg:bold-52 text-indigo-900">Team</h2>
-        <p className="regular-16 lg:regular-20 mt-6 text-gray-50 ">
+      <div className="relative bg-slate-50 rounded-xl py-4 z-20 flex flex-1 flex-col items-center w-full">
+        <h2 className="h2 text-heading  text-center w-full">Team</h2>
+        <p className="p-regular mt-6 text-gray-50">
           Meet the driving force behind{" "}
           <span className="font-extrabold">HR Expand Plus Consulting -</span>a
           team of seasoned professionals committed to propelling your business

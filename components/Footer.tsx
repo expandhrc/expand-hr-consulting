@@ -5,19 +5,20 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mt-6 bg-white">
-      <div className="padding-container max-container flex w-full flex-col gap-6">
+    <footer className="flexCenter mt-6">
+      <div className="padding-container max-container flex w-full flex-col">
         <div className="border bg-gray-20" />
-        <div className="flex gap-2 items-center justify-between">
+        <div className="flex gap-2 items-center justify-between py-1">
           <Link href="/">
             <Image
-              src="/logo-for-webcropped.jpg"
+              src="/Logo/FullLogoCropped.jpg"
               alt="logo"
               width={130}
               height={80}
+              className="rounded-xl"
             />
           </Link>
-          <p className="regular-14 text-center text-gray-30">
+          <p className="p-regular text-gray-50">
             2024 HR Expand Plus | All rights reserved
           </p>
         </div>

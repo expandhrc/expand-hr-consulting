@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Cover from "@/components/Cover";
 
 export const metadata: Metadata = {
   title: "HR Expand Plus",
@@ -20,8 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
+      <body className="relative">
         <Navbar />
+        <Cover />
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
       </body>
