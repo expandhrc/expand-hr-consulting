@@ -9,8 +9,8 @@ const Approach = () => {
        to-primary/70 text-white  py-4 text-center w-full"
       >
         <span
-          className="font-extrabold text-transparent bg-gradient-to-b
-        from-lightBlue via-paleBlue to-lightBlue bg-clip-text"
+          className="font-extrabold text-transparent bg-gradient-to-br
+        from-paleBlue via-white to-paleBlue bg-clip-text"
         >
           Our Approach
         </span>

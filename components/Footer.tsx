@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="flexCenter mt-6">
       <div className="padding-container max-container flex w-full flex-col">
         <div className="border bg-gray-20" />
-        <div className="flex gap-2 items-center justify-between py-1">
+        <div className="flex flex-col md:flex-row gap-2 items-center justify-between py-1">
           <Link href="/">
             <Image
               src="/Logo/FullLogoCropped.jpg"
@@ -18,7 +18,7 @@ const Footer = () => {
               className="rounded-xl"
             />
           </Link>
-          <p className="p-regular text-gray-50">
+          <p className="text-xs md:p-regular text-gray-50">
             2024 HR Expand Plus | All rights reserved
           </p>
         </div>

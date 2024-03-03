@@ -63,7 +63,7 @@ const ContactUs = () => {
             <input type="text" placeholder="subject" className="input" />
             <textarea placeholder="message*" className="textarea"></textarea>
             <button
-              className="btn rounded-full bg-gradient-to-br from-primary/80 via-skyBlue to-primary/80 text-white
+              className="btn rounded-full bg-gradient-to-br from-lightBlue via-skyBlue to-lightBlue text-white
              w-full md:max-w-[170px] px-8 py-3 transition-all duration-300 flex items-center
             justify-center overflow-hidden hover:bg-lightBlue group cursor-pointer"
               disabled
