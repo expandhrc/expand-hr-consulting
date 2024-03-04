@@ -21,16 +21,15 @@ const Hero = () => {
             className="font-extrabold text-transparent bg-gradient-to-br
         from-primary via-skyBlue to-primary bg-clip-text"
           >
-            HR Expand Plus
+            Expand HR Consulting
           </span>
         </h1>
         <p className="p-regular text-primary text-md">
           Welcome to{" "}
-          <span className="font-extrabold">HR Expand Plus Consulting —</span>{" "}
-          where strategic brilliance meets transformative solutions. Discover
-          tailored consultancy services crafted to propel your business forward.
-          Join us on a journey of innovation, collaboration, and unparalleled
-          success.
+          <span className="font-extrabold">Expand HR Consulting —</span> where
+          strategic brilliance meets transformative solutions. Discover tailored
+          consultancy services crafted to propel your business forward. Join us
+          on a journey of innovation, collaboration, and unparalleled success.
         </p>
       </div>
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { FaDiamond } from "react-icons/fa6";
-import { Collapse } from "react-collapse";
 
 interface AccordionItemProps {
   open: boolean;

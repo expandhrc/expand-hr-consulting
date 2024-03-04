@@ -1,3 +1,5 @@
+import { FaEnvelope, FaInstagram, FaFacebook, FaSnapchat, FaLinkedin } from 'react-icons/fa';
+
 export interface Service {
   heading: string;
   paragraphs: string[];
@@ -116,31 +118,31 @@ export const servicesData = [
 // FAQs
 export const faqData = [
   {
-    question: "What services does HR Expand Plus Consulting offer?",
+    question: "What services does Expand HR Consulting offer?",
     answer:
-      "HR Expand Plus Consulting offers a range of HR consulting services, including talent acquisition, organizational development, strategic HR planning, and customized solutions tailored to your business needs.",
+      "Expand HR Consulting offers a range of HR consulting services, including talent acquisition, organizational development, strategic HR planning, and customized solutions tailored to your business needs.",
   },
   {
-    question: "How can HR Expand Plus Consulting help with recruitment?",
+    question: "How can Expand HR Consulting help with recruitment?",
     answer:
-      "HR Expand Plus Consulting specializes in designing and implementing effective recruitment strategies, leveraging innovative approaches, technology, and industry expertise to attract and secure top-tier talent for your organization.",
+      "Expand HR Consulting specializes in designing and implementing effective recruitment strategies, leveraging innovative approaches, technology, and industry expertise to attract and secure top-tier talent for your organization.",
   },
   {
-    question: "What industries does HR Expand Plus Consulting serve?",
+    question: "What industries does Expand HR Consulting serve?",
     answer:
-      `HR Expand Plus Consulting has experience serving a diverse range of industries, including but
+      `Expand HR Consulting has experience serving a diverse range of industries, including but
       not limited to technology, manufacturing, healthcare, finance, and
       professional services.`,
   },
   {
     question: "How does your HR consulting process work?",
     answer:
-      `Our HR Expand Plus Consulting begins with a thorough assessment of your needs. We then develop
+      `Our Expand HR Consulting begins with a thorough assessment of your needs. We then develop
       tailored solutions, implement strategic initiatives, and provide
       ongoing support to ensure the success of your HR goals.`,
   },
   {
-    question: "Can HR Expand Plus Consulting assist with employee training and development?",
+    question: "Can Expand HR Consulting assist with employee training and development?",
     answer:
       `Absolutely. We offer customized training and development
       programs to enhance the skills of your workforce, fostering
@@ -148,41 +150,51 @@ export const faqData = [
       success.`,
   },
   {
-    question: "What sets HR Expand Plus Consulting apart from other HR consulting firms?",
+    question: "What sets Expand HR Consulting apart from other HR consulting firms?",
     answer:
-      `HR Expand Plus Consulting stands out for its personalized approach, industry-specific
+      `Expand HR Consulting stands out for its personalized approach, industry-specific
       expertise, and a commitment to delivering measurable results. We
       prioritize building long-term partnerships and understanding the
       unique needs of each client.`,
   },
   {
-    question: "How can I contact HR Expand Plus Consulting for services?",
+    question: "How can I contact Expand HR Consulting for services?",
     answer:
-      `You can reach out to HR Expand Plus Consulting through our Contact Page, where you'll find our contact details, a
+      `You can reach out to Expand HR Consulting through our Contact Page, where you'll find our contact details, a
       contact form, and information on scheduling a consultation.`,
   },
   {
-    question: "Is HR Expand Plus Consulting experienced in handling HR challenges for startups?",
+    question: "Is Expand HR Consulting experienced in handling HR challenges for startups?",
     answer:
       `Yes, we have a proven track record of assisting startups with
       their HR challenges. Our flexible and scalable solutions are
       designed to support organizations at every stage of growth.`,
   },
   {
-    question: "Can HR Expand Plus Consulting help with HR compliance and regulations?",
+    question: "Can Expand HR Consulting help with HR compliance and regulations?",
     answer:
       `Absolutely. We stay updated on HR regulations and compliance
       requirements to ensure your organization is well-informed and in
       adherence to all relevant laws and standards.`,
   },
   {
-    question: "What types of assessments does HR Expand Plus Consulting offer for recruitment or career management purposes?",
+    question: "What types of assessments does Expand HR Consulting offer for recruitment or career management purposes?",
     answer:
-      `HR Expand Plus Consulting provides a range of assessments, including skills assessments,
+      `Expand HR Consulting provides a range of assessments, including skills assessments,
       behavioral assessments, and cultural fit assessments, tailored to
       your specific hiring or career management needs.`,
   }
 ];
+
+// SOCIAL MEDIA
+export const contactMethods = [
+  { platform: 'E-mail', username: 'info@hrexpandplus.com', icon: FaEnvelope },
+  { platform: 'Instagram', username: 'HRexpandplus', icon: FaInstagram },
+  { platform: 'Facebook', username: 'HRexpandplus', icon: FaFacebook },
+  // { platform: 'Snapchat', username: 'HRexpandplus', icon: <FaSnapchat /> },
+  // { platform: 'X', username: 'HRexpandplus', icon: <YourIconComponent /> },
+  // { platform: 'Linkedin', username: 'HRexpandplus', icon: <FaLinkedin /> },
+]
 
 // FEATURES SECTION
 export const FEATURES = [

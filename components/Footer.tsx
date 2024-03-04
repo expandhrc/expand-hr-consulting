@@ -19,7 +19,7 @@ const Footer = () => {
             />
           </Link>
           <p className="text-xs md:p-regular text-gray-50">
-            2024 HR Expand Plus | All rights reserved
+            2024 Expand HR Consulting | All rights reserved
           </p>
         </div>
       </div>

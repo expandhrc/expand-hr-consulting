@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
+import { MdEmail, MdOutlineEmail } from "react-icons/md";
+import { contactMethods } from "@/constants";
 
 const SocialMedia = () => {
   return (
@@ -12,29 +14,27 @@ const SocialMedia = () => {
           Social Media Integration
         </h2>
         <p className="p-regular mt-6 text-gray-50">
-          Stay connected with HR Expand Plus Consulting on social media for
-          real-time updates, industry insights, and engaging content. Follow us
-          on all Social Media Platforms to join the conversation and be part of
-          our dynamic community.
+          Stay connected with{" "}
+          <span className="font-extrabold">Expand HR Consulting </span> on
+          social media for real-time updates, industry insights, and engaging
+          content. Follow us on all Social Media Platforms to join the
+          conversation and be part of our dynamic community.
         </p>
-        <p className="regular-14 lg:regular-18 mt-6 text-gray-50">
-          E-mail: info@hrexpandplus.com
-        </p>
-        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">
-          Instagram: HRexpandplus
-        </p>
-        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">
-          Facebook: HRexpandplus
-        </p>
-        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">
-          Snapchat: HRexpandplus
-        </p>
-        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">
-          X: HRexpandplus
-        </p>
-        <p className="regular-14 lg:regular-18 mt-2 text-gray-50">
-          Linkedin: HRexpandplus
-        </p>
+        <div className="grid grid-cols-1 min-w-[250px] justify-between items-center gap-6 mt-8">
+          {contactMethods.map((contact, index) => (
+            <div
+              key={index}
+              className="p-regular group gap-6 text-gray-50 flex items-center min-w-[250px] cursor-pointer
+              hover:text-skyBlue transition-all duration-300"
+            >
+              {
+                <contact.icon className="text-primary group-hover:text-skyBlue" />
+              }
+
+              {contact.username}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

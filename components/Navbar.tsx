@@ -4,6 +4,7 @@ import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(true);
@@ -48,13 +49,16 @@ const Navbar = () => {
           <Link
             href={link.href}
             key={link.key}
-            className="p-regular text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all
+            className="h3 text-primary flexCenter cursor-pointer pb-1.5 transition-all
                hover:text-indigo-800 hover:scale-105 text-center"
           >
             {link.label}
           </Link>
         ))}
       </ul>
+      <div className="md:hidden">
+        <MobileNav />
+      </div>
     </nav>
   );
 };

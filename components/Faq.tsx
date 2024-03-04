@@ -13,7 +13,6 @@ const Faq = () => {
     if (open === index) {
       return setOpen(-1);
     }
-    ("");
     setOpen(index);
   };
 
@@ -29,7 +28,6 @@ const Faq = () => {
             toggle={() => toggle(index)}
           />
         ))}
-        ;
       </div>
     );
   };
@@ -57,7 +55,7 @@ const Faq = () => {
           essential information to streamline your experience. Navigate
           confidently and find the information you need as you embark on a
           transformative journey with{" "}
-          <span className="font-extrabold">HR Expand Plus Consulting. </span>
+          <span className="font-extrabold">Expand HR Consulting. </span>
         </p>
       </div>
 
