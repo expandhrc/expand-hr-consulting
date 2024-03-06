@@ -4,6 +4,7 @@ import { Service, servicesData } from "@/constants";
 import React, { FC, useState } from "react";
 import AccordionItem from "./ServiceItem";
 import ServiceItem from "./ServiceItem";
+import { CiSettings } from "react-icons/ci";
 
 const ServicesDesc = () => {
   const [open, setOpen] = useState(0);
@@ -18,7 +19,7 @@ const ServicesDesc = () => {
 
   const renderServiceItems: FC<{ services: Service[] }> = ({ services }) => {
     return (
-      <div className="grid md:grid-cols-3 gap-4 padding-container xl:max-w-[90%]">
+      <div className="grid md:grid-cols-3 gap-4 mt-6 padding-container xl:max-w-[90%]">
         {servicesData.map((service, index) => (
           <ServiceItem
             key={index}
@@ -63,6 +64,10 @@ const ServicesDesc = () => {
         className="relative flex items-center flex-col gap-2 flex-1 py-10
        bg-gradient-to-r from-primary via-lightBlue to-primary"
       >
+        <CiSettings
+          className="text-7xl animate-spin-slow"
+          style={{ fill: "url(#lightBlue-gradient)" }}
+        />
         {renderServiceItems({ services: servicesData })}
         <p className="bold-18 text-center font-extrabold mt-6 text-primary padding-container">
           <span className="font-extrabold text-white">
@@ -70,6 +75,26 @@ const ServicesDesc = () => {
           </span>
         </p>
       </div>
+      <svg width="0" height="0">
+        <defs>
+          <linearGradient
+            id="lightBlue-gradient"
+            x1="0%"
+            y1="0%"
+            x2="10%"
+            y2="100%"
+          >
+            <stop offset="10%" stopColor="#c4dff7" />
+            <stop offset="40%" stopColor="#ffff" />
+            <stop offset="50%" stopColor="#c4dff7" />
+            <stop offset="60%" stopColor="#ffff" />
+            <stop offset="90%" stopColor="#c4dff7" />
+            {/* <stop offset="20%" stopColor="#1d7bd1" />
+            <stop offset="50%" stopColor="#0c345c" />
+            <stop offset="80%" stopColor="#1d7bd1" /> */}
+          </linearGradient>
+        </defs>
+      </svg>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+import { LuMessageSquareDashed } from "react-icons/lu";
+
 const ContactUs = () => {
   return (
     <section id="contact" className="max-container">
@@ -17,6 +19,7 @@ const ContactUs = () => {
       bg-gradient-to-r from-primary via-skyBlue to-primary"
       >
         <div className="relative rounded-xl py-6 z-20 flex flex-1 flex-col items-center xl:max-w-[90%]">
+          <LuMessageSquareDashed className="text-7xl text-paleBlue rotate-6" />
           <p className="p-regular mt-6 text-paleBlue">
             Connect with us at{" "}
             <span className="font-extrabold">Expand HR Consulting </span> to
@@ -61,7 +64,7 @@ const ContactUs = () => {
             <button
               className="btn rounded-full bg-gradient-to-br from-lightBlue via-skyBlue to-lightBlue text-white
              w-full md:max-w-[170px] px-8 py-3 transition-all duration-300 flex items-center
-            justify-center overflow-hidden hover:bg-lightBlue group cursor-pointer"
+            justify-center shadow-md shadow-lightBlue/50 hover:from-skyBlue hover:via-lightBlue hover:to-skyBlue  cursor-pointer"
               disabled
             >
               Send

@@ -1,13 +1,18 @@
 import Image from "next/image";
 import Button from "./Button";
+import { LiaIndustrySolid } from "react-icons/lia";
 
 const Industries = () => {
   return (
     <section
       id="industries"
-      className="rounded-xl padding-container flexCenter flex-col gap-6 xl:gap-12 py-10 mb-4"
+      className="max-container rounded-xl padding-container flexCenter flex-col gap-6 xl:gap-12 py-10 mb-4"
     >
       <div className="relative bg-slate-50 rounded-xl py-4 z-20 flex flex-1 flex-col items-center w-full">
+        <LiaIndustrySolid
+          className="text-5xl rotate-6"
+          style={{ fill: "url(#blue-gradient)" }}
+        />
         <h2 className="h2 text-heading  text-center w-full">
           Industries We Serve
         </h2>
