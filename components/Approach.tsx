@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Button from "./Button";
-
 const Approach = () => {
   return (
     <section id="approach" className="max-container">

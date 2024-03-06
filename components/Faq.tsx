@@ -5,6 +5,7 @@ import { FAQs, faqData } from "@/constants";
 import { FC, useState } from "react";
 import ServiceItem from "./AccordionItem";
 import AccordionItem from "./AccordionItem";
+import { FaQuestion } from "react-icons/fa6";
 
 const Faq = () => {
   const [open, setOpen] = useState(0);
@@ -16,7 +17,7 @@ const Faq = () => {
     setOpen(index);
   };
 
-  const renderServiceItems: FC<{ faqs: FAQs[] }> = ({ faqs }) => {
+  const renderFaqItems: FC<{ faqs: FAQs[] }> = ({ faqs }) => {
     return (
       <div className="flex flex-col items-center gap-4 padding-container xl:max-w-[90%]">
         {faqData.map((faq, index) => (
@@ -39,7 +40,7 @@ const Faq = () => {
     >
       <div className="relative bg-slate-50 rounded-xl py-4 z-20 flex flex-1 flex-col items-center w-full">
         <p
-          className="h2-large w-full text-center py-4 font-extrabold mt-6
+          className="h2-large w-full text-center py-4 font-extrabold
          rounded-t-xl"
         >
           <span
@@ -60,7 +61,11 @@ const Faq = () => {
       </div>
 
       <div className="relative flex flex-col gap-8 flex-1 items-center mt-6">
-        {renderServiceItems({ faqs: faqData })}
+        <FaQuestion
+          className="text-7xl rotate-12"
+          style={{ fill: "url(#blue-gradient)" }}
+        />
+        {renderFaqItems({ faqs: faqData })}
       </div>
     </section>
   );

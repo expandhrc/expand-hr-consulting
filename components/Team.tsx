@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Button from "./Button";
+import { AiOutlineTeam } from "react-icons/ai";
 
 const Team = () => {
   return (
@@ -8,6 +7,10 @@ const Team = () => {
       className="max-container rounded-xl padding-container flexCenter flex-col gap-6 xl:gap-12 py-10 mb-4"
     >
       <div className="relative bg-slate-50 rounded-xl py-4 z-20 flex flex-1 flex-col items-center w-full">
+        <AiOutlineTeam
+          className="text-5xl rotate-6"
+          style={{ fill: "url(#blue-gradient)" }}
+        />
         <h2 className="h2 text-heading  text-center w-full">Team</h2>
         <p className="p-regular mt-6 text-gray-50">
           Meet the driving force behind{" "}
