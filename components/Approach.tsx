@@ -12,25 +12,27 @@ const Approach = () => {
           Our Approach
         </span>
       </h2>
+
       <div
         className="bg-gradient-to-br
         from-lightBlue via-paleBlue to-lightBlue padding-container flexCenter flex-col gap-6 xl:gap-12
-       py-10 mb-4 "
+       py-10 mb-4"
       >
+        <p className="max-w-[65%] md:max-w-[50%] text-heading text-center font-bold">
+          Welcome to a consultancy experience where precision meets partnership,
+          and where our proven methodology paves the way for your success!
+        </p>
         <div className="relative rounded-xl z-20 flex flex-1 flex-col items-center xl:max-w-[90%] bg-slate-50 py-6">
           <p className="p-regular text-primary">
-            At <span className="font-extrabold">Expand HR Consulting</span>, our
-            consultancy approach is a finely tuned blend of insight,
+            Our consultancy approach is a finely tuned blend of insight,
             collaboration, and innovation. We believe in forging a deep
             understanding of our clients' challenges, working hand-in-hand to
-            co-create strategic solutions. Our methodology is rooted in a
+            co-create strategic solutions. <br /> Our methodology is rooted in a
             rigorous analysis of industry trends, combined with a hands-on,
             client-focused implementation. By fostering open communication and
             tailoring our approach to each unique situation, we ensure that our
             clients not only overcome obstacles but also emerge stronger and
-            more resilient. Welcome to a consultancy experience where precision
-            meets partnership, and where our proven methodology paves the way
-            for your success.
+            more resilient.
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { FaEnvelope, FaInstagram, FaFacebook, FaSnapchat, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaFacebook, FaSnapchat, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
 
 export interface Service {
   heading: string;
@@ -32,7 +32,7 @@ export const servicesData = [
   {
     heading: "Workforce Planning:",
     paragraphs: [
-      "Classify and each unit's activities and evaluate gaps and excess in terms of FTEs.",
+      "Classify each unit's activities and evaluate gaps and excess in terms of FTEs.",
       "Provide a detailed scientific model showing excess and gaps of employees in different business units of the organization."
     ]
   },
@@ -188,80 +188,14 @@ export const faqData = [
 
 // SOCIAL MEDIA
 export const contactMethods = [
-  { platform: 'E-mail', username: 'info@hrexpandplus.com', icon: FaEnvelope },
-  { platform: 'Instagram', username: 'HRexpandplus', icon: FaInstagram },
-  { platform: 'Facebook', username: 'HRexpandplus', icon: FaFacebook },
+  { platform: 'E-mail', url: 'mailto:Info@expandhrconsulting.com', icon: FaEnvelope },
+  { platform: 'Linkedin', url: 'https://www.linkedin.com/company/expandhrconsulting/', icon: FaLinkedin },
+  { platform: 'Phone', url: "tel:+96181811663", icon: FaPhoneAlt }
+  // { platform: 'Instagram', username: 'HRexpandplus', icon: FaInstagram },
+  // { platform: 'Facebook', username: 'HRexpandplus', icon: FaFacebook },
   // { platform: 'Snapchat', username: 'HRexpandplus', icon: <FaSnapchat /> },
   // { platform: 'X', username: 'HRexpandplus', icon: <YourIconComponent /> },
-  // { platform: 'Linkedin', username: 'HRexpandplus', icon: <FaLinkedin /> },
 ]
 
-// FEATURES SECTION
-export const FEATURES = [
-  {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
-    description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
-  },
-  {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
-    description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
-  },
-  {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
-    description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
-  },
-  {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
-    description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
-  },
-];
 
-// FOOTER SECTION
-export const FOOTER_LINKS = [
-  {
-    title: 'Learn More',
-    links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
-    ],
-  },
-  {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
-  },
-];
 
-export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
-  links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
-  ],
-};
-
-export const SOCIALS = {
-  title: 'Social',
-  links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
-  ],
-};
