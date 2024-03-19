@@ -20,7 +20,7 @@ const AboutUs = () => {
           style={{ fill: "url(#blue-gradient)" }}
         />
         <h2 className="h2 text-heading">About Us</h2>
-        <p className="max-w-[50%] text-heading text-center font-bold">
+        <p className="max-w-[65%] md:max-w-[50%] text-heading text-center font-bold">
           Welcome to a consultancy experience where innovation meets impact, and
           where your success is our shared journey!
         </p>

@@ -16,7 +16,7 @@ const Industries = () => {
         <h2 className="h2 text-heading  text-center w-full">
           Industries We Serve
         </h2>
-        <p className="max-w-[50%] text-heading text-center font-bold">
+        <p className="max-w-[65%] md:max-w-[50%] text-heading text-center font-bold">
           Welcome to a consultancy that understands the intricacies of your
           world and turns challenges into opportunities!
         </p>

@@ -30,7 +30,7 @@ const SocialMedia = () => {
           {contactMethods.map((contact, index) => (
             <Link
               href={contact.url}
-              target="_blank"
+              target={contact.platform === "Linkedin" ? "_blank" : ""}
               key={index}
               className="text-primary text-xl md:text-2xl cursor-pointer
               hover:text-skyBlue transition-all duration-300"

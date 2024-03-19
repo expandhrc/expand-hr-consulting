@@ -16,7 +16,7 @@ const Services = () => {
           style={{ fill: "url(#blue-gradient)" }}
         />
         <h2 className="h2 text-heading  text-center w-full">Services</h2>
-        <p className="max-w-[50%] text-heading text-center font-bold">
+        <p className="max-w-[65%] md:max-w-[50%] text-heading text-center font-bold">
           Welcome to a consultancy experience where your aspirations meet our
           expertise!
         </p>

@@ -12,7 +12,7 @@ const Team = () => {
           style={{ fill: "url(#blue-gradient)" }}
         />
         <h2 className="h2 text-heading  text-center w-full">Team</h2>
-        <p className="max-w-[50%] text-heading text-center font-bold">
+        <p className="max-w-[65%] md:max-w-[50%] text-heading text-center font-bold">
           Your goals, our team – a powerful partnership for transformative
           results!
         </p>

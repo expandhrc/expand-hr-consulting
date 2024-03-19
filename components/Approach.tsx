@@ -18,7 +18,7 @@ const Approach = () => {
         from-lightBlue via-paleBlue to-lightBlue padding-container flexCenter flex-col gap-6 xl:gap-12
        py-10 mb-4"
       >
-        <p className="max-w-[50%] text-heading text-center font-bold">
+        <p className="max-w-[65%] md:max-w-[50%] text-heading text-center font-bold">
           Welcome to a consultancy experience where precision meets partnership,
           and where our proven methodology paves the way for your success!
         </p>

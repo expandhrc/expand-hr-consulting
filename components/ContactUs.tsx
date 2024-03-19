@@ -18,7 +18,7 @@ const ContactUs = () => {
         className="padding-container flexCenter flex-col gap-6 xl:gap-12 py-10 mb-4
       bg-gradient-to-r from-primary via-skyBlue to-primary"
       >
-        <p className="max-w-[50%] text-paleBlue text-center font-bold">
+        <p className="max-w-[65%] md:max-w-[50%] text-paleBlue text-center font-bold">
           Connect with us to embark on a collaborative journey towards
           transformative solutions!
         </p>
