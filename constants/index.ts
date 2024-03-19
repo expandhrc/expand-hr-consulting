@@ -1,4 +1,4 @@
-import { FaEnvelope, FaInstagram, FaFacebook, FaSnapchat, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaFacebook, FaSnapchat, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
 
 export interface Service {
   heading: string;
@@ -32,7 +32,7 @@ export const servicesData = [
   {
     heading: "Workforce Planning:",
     paragraphs: [
-      "Classify and each unit's activities and evaluate gaps and excess in terms of FTEs.",
+      "Classify each unit's activities and evaluate gaps and excess in terms of FTEs.",
       "Provide a detailed scientific model showing excess and gaps of employees in different business units of the organization."
     ]
   },
@@ -188,12 +188,13 @@ export const faqData = [
 
 // SOCIAL MEDIA
 export const contactMethods = [
-  { platform: 'E-mail', username: 'info@hrexpandplus.com', icon: FaEnvelope },
-  { platform: 'Instagram', username: 'HRexpandplus', icon: FaInstagram },
-  { platform: 'Facebook', username: 'HRexpandplus', icon: FaFacebook },
+  { platform: 'E-mail', url: 'mailto:Info@expandhrconsulting.com', icon: FaEnvelope },
+  { platform: 'Linkedin', url: 'https://www.linkedin.com/company/expandhrconsulting/', icon: FaLinkedin },
+  { platform: 'Phone', url: "tel:+96181811663", icon: FaPhoneAlt }
+  // { platform: 'Instagram', username: 'HRexpandplus', icon: FaInstagram },
+  // { platform: 'Facebook', username: 'HRexpandplus', icon: FaFacebook },
   // { platform: 'Snapchat', username: 'HRexpandplus', icon: <FaSnapchat /> },
   // { platform: 'X', username: 'HRexpandplus', icon: <YourIconComponent /> },
-  // { platform: 'Linkedin', username: 'HRexpandplus', icon: <FaLinkedin /> },
 ]
 
 

@@ -3,6 +3,7 @@ import Button from "./Button";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 import { contactMethods } from "@/constants";
 import { IoShareSocialOutline } from "react-icons/io5";
+import Link from "next/link";
 
 const SocialMedia = () => {
   return (
@@ -27,13 +28,15 @@ const SocialMedia = () => {
         </p>
         <div className="flex items-center gap-12 mt-12">
           {contactMethods.map((contact, index) => (
-            <div
+            <Link
+              href={contact.url}
+              target="_blank"
               key={index}
               className="text-primary text-xl md:text-2xl cursor-pointer
               hover:text-skyBlue transition-all duration-300"
             >
               <contact.icon />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

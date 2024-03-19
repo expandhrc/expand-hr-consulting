@@ -1,9 +1,4 @@
-import {
-  FOOTER_CONTACT_INFO,
-  FOOTER_LINKS,
-  SOCIALS,
-  contactMethods,
-} from "@/constants";
+import { contactMethods } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -27,15 +22,17 @@ const Footer = () => {
             <p className="text-xs md:text-sm text-gray-50">
               2024 Expand HR Consulting | All rights reserved
             </p>
-            <div className="flex gap-8">
+            <div className="flex gap-8 items-center">
               {contactMethods.map((contact, index) => (
-                <div
+                <Link
+                  href={contact.url}
+                  target="_blank"
                   key={index}
                   className="text-primary text-sm md:text-lg cursor-pointer
                 hover:text-skyBlue transition-all duration-300"
                 >
                   <contact.icon />
-                </div>
+                </Link>
               ))}
             </div>
           </div>
