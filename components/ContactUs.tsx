@@ -1,4 +1,5 @@
 import { LuMessageSquareDashed } from "react-icons/lu";
+import ContactForm from "./ContactForm";
 
 const ContactUs = () => {
   return (
@@ -45,31 +46,7 @@ const ContactUs = () => {
             Thank you for your interest in Expand HR consulting. Fill out the
             form below, and we'll get back to you promptly.
           </p>
-          <form className="flex flex-col gap-6 w-full ">
-            {/* input group */}
-            <div className="flex gap-x-6 w-full">
-              <input type="text" placeholder="name*" className="input" />
-              <input type="text" placeholder="company*" className="input" />
-            </div>
-            <div className="flex gap-x-6 w-full">
-              <input type="email" placeholder="email*" className="input" />
-              <input
-                type="text"
-                placeholder="phone number*"
-                className="input"
-              />
-            </div>
-            <input type="text" placeholder="subject" className="input" />
-            <textarea placeholder="message*" className="textarea"></textarea>
-            <button
-              className="btn rounded-full bg-gradient-to-br from-lightBlue via-skyBlue to-lightBlue text-white
-             w-full md:max-w-[170px] px-8 py-3 transition-all duration-300 flex items-center
-            justify-center shadow-md shadow-lightBlue/50 hover:from-skyBlue hover:via-lightBlue hover:to-skyBlue  cursor-pointer"
-              disabled
-            >
-              Send
-            </button>
-          </form>
+          <ContactForm />
         </div>
       </div>
     </section>
