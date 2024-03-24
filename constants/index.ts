@@ -13,7 +13,9 @@ export interface FAQs {
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '#home', key: 'home', label: 'Home' },
-  { href: '#services', key: 'services', label: 'Services' },
+  // { href: '#services', key: 'services', label: 'Services' },
+  { href: '#solutions', key: 'solutions', label: 'HR Solutions' },
+  { href: '#industries', key: 'industries', label: 'Industries We Serve' },
   { href: '#approach', key: 'approach', label: 'Our Approach' },
   { href: '#team', key: 'team', label: 'Team' },
   { href: '#contact', key: 'contact', label: 'Contact Us' },

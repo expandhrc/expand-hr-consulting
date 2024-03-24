@@ -48,7 +48,7 @@ const ServicesDesc = () => {
   };
 
   return (
-    <div className="max-container">
+    <section id="solutions" className="max-container">
       <p
         className="h2-large w-full text-center py-4 font-extrabold mt-6
         bg-skyBlue/20"
@@ -95,7 +95,7 @@ const ServicesDesc = () => {
           </linearGradient>
         </defs>
       </svg>
-    </div>
+    </section>
   );
 };
 
