@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import MobileNav from "./MobileNav";
+import { SheetTrigger } from "./ui/sheet";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(true);
@@ -44,19 +45,19 @@ const Navbar = () => {
         />
       </Link>
 
-      <ul className="hidden h-full gap-12 md:flex">
+      <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
             key={link.key}
-            className="h3 text-primary flexCenter cursor-pointer pb-1.5 transition-all
+            className="bold-16 text-primary flexCenter cursor-pointer pb-1.5 transition-all
                hover:text-indigo-800 hover:scale-105 text-center"
           >
             {link.label}
           </Link>
         ))}
       </ul>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <MobileNav />
       </div>
     </nav>

@@ -160,6 +160,9 @@ body {
   .bold-16 {
     @apply text-[16px] font-[700];
   }
+  .bold-14 {
+    @apply text-[14px] font-[700];
+  }
 
   /* Hero */
   .hero-map {

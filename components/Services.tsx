@@ -17,8 +17,7 @@ const Services = () => {
         />
         <h2 className="h2 text-heading  text-center w-full">Services</h2>
         <p className="max-w-[65%] md:max-w-[50%] text-heading text-center font-bold">
-          Welcome to a consultancy experience where your aspirations meet our
-          expertise!
+          Where your aspirations meet our expertise!
         </p>
         <p className="p-regular mt-6 text-gray-50 ">
           Our suite of consultancy services is meticulously designed to propel

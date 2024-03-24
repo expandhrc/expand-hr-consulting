@@ -18,7 +18,7 @@ const ContactForm: FC = () => {
   const { register, handleSubmit } = useForm<FormData>();
   const [isSending, setIsSending] = useState(false);
   const [submitStatus, setSubmitStatus] = useState("");
-  const [validated, setValidated] = useState(false);
+  const [validated, setValidated] = useState(true);
   const [success, setSuccess] = useState(false);
 
   function onSubmit(data: FormData) {
@@ -81,7 +81,7 @@ const ContactForm: FC = () => {
       </div>
       <input
         type="text"
-        placeholder="subject"
+        placeholder="subject*"
         className="input"
         {...register("subject", { required: false })}
       />
@@ -99,23 +99,20 @@ const ContactForm: FC = () => {
         {/* {isSending && } */}
         <span
           className={`transition-all duration-300 ${
-            isSending ? " translate-y-0" : "transform -translate-y-full hidden"
+            isSending ? "translate-y-0" : "transform -translate-y-full hidden"
           }`}
         >
-          <ImSpinner10
-            className={`animate-spin text-primary w-5 h-5 $
-            `}
-          />
+          <ImSpinner10 className={`animate-spin text-lime-400 w-5 h-5`} />
         </span>
         <p className={`${isSending ? "hidden" : "visible"}`}>Send</p>
       </button>
       <p
-        className={`text-center font-bold md:text-start transition-all duration-300 ${
+        className={`text-center font-bold md:text-start transition-all duration-300 opacity-0 -translate-y-10 ${
           success
-            ? "text-green-500 opacity-100"
+            ? "text-green-500 opacity-100 translate-y-0"
             : !validated
-            ? "text-red-400 opacity-100 -translate-y-0 "
-            : "opacity-0 -translate-y-10"
+            ? "text-red-400 opacity-100 translate-y-0 "
+            : ""
         }`}
       >
         {submitStatus}
