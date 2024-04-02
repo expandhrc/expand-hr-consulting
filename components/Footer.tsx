@@ -20,7 +20,7 @@ const Footer = () => {
           </Link>
           <div className="flex flex-col gap-2 items-center justify-start">
             <p className="text-xs md:text-sm text-gray-50">
-              2024 Expand HR Consulting | All rights reserved
+              &copy; 2024 Expand HR Consulting | All rights reserved
             </p>
             <div className="flex gap-8 items-center">
               {contactMethods.map((contact, index) => (
