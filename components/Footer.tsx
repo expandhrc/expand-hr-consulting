@@ -26,7 +26,7 @@ const Footer = () => {
               {contactMethods.map((contact, index) => (
                 <Link
                   href={contact.url}
-                  target="_blank"
+                  target={contact.platform === "Linkedin" ? "_blank" : ""}
                   key={index}
                   className="text-primary text-sm md:text-lg cursor-pointer
                 hover:text-skyBlue transition-all duration-300"

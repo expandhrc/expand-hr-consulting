@@ -6,11 +6,11 @@ import Footer from "@/components/Footer";
 import Cover from "@/components/Cover";
 
 export const metadata: Metadata = {
-  title: "HR Expand Plus",
+  title: "Expand HR Consulting",
   description:
-    "HR Expand Plus offers comprehensive HR solutions for businesses of all sizes. Contact us for your HR needs.",
+    "Expand HR Consulting offers comprehensive HR solutions for businesses of all sizes. Contact us for your HR needs.",
   icons: {
-    icon: "/hero.png",
+    icon: "/favicon.ico",
   },
 };
 
